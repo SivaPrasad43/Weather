@@ -27,7 +27,7 @@ function App() {
                 clouds={data.clouds?.all}
                 humidity={data.main?.humidity}/>
               </>
-                 : <h1 style={{display:"flex",justifyContent:"center",alignItems:"center",minHeight:"100vh"}}>No Data</h1>}
+                 : <h1 style={{display:"flex",justifyContent:"center",alignItems:"center",minHeight:"100vh"}}>Loading...</h1>}
     </div>
   );
 }

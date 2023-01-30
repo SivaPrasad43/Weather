@@ -3,7 +3,7 @@
     display: flex;
     /* background-color: aqua; */
     /* background-image: url('https://img.freepik.com/free-photo/sunshine-clouds-sky-during-morning-background-blue-white-pastel-heaven-soft-focus-lens-flare-sunlight-abstract-blurred-cyan-gradient-peaceful-nature-open-view-out-windows-beautiful-summer-spring_1253-1092.jpg?w=1060&t=st=1675091605~exp=1675092205~hmac=8a1f4678085e463a034a72184c8f04a11b2143d8c3978747f2a519f4bf852de5'); */
-    background-size: cover;
+    background-size:cover;
     justify-content: space-around;
     animation: visible 0.5s;
 }
