@@ -21,7 +21,7 @@ function Display(props) {
     else{
       setDaypic(weatherBackground.night)
     }
-  },[])
+  },[hours])
   console.log(daypic);
   return (
     <div 
