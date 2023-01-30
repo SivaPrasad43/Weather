@@ -1,0 +1,54 @@
+.display-container{
+    height: 100vh;
+    display: flex;
+    /* background-color: aqua; */
+    /* background-image: url('https://img.freepik.com/free-photo/sunshine-clouds-sky-during-morning-background-blue-white-pastel-heaven-soft-focus-lens-flare-sunlight-abstract-blurred-cyan-gradient-peaceful-nature-open-view-out-windows-beautiful-summer-spring_1253-1092.jpg?w=1060&t=st=1675091605~exp=1675092205~hmac=8a1f4678085e463a034a72184c8f04a11b2143d8c3978747f2a519f4bf852de5'); */
+    background-size: cover;
+    justify-content: space-around;
+    animation: visible 0.5s;
+}
+.temp-display{
+    /* width: 55vw; */
+    height: 100vh;
+    /* background-color: yellow; */
+    padding-left: 80px;
+}
+.temp-display > h1{
+    font-size: 15rem;
+    margin-left: -1rem;
+    padding-top: 5rem;
+}
+.temp-display > h2 {
+    font-size: 4rem;
+    margin-top: -3rem;
+}
+.other-details{
+    /* width: 45vw; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* background-color: blue; */
+}
+.other-container{
+    background-color: rgb(20, 29, 43,40%);
+    padding: 30px;
+    border-radius: 30px;
+}
+@keyframes visible {
+    0% {
+        opacity: 0;
+    }
+    25%{
+        opacity: 25%;
+    }
+    50%{
+        opacity: 50%;
+    }
+    75%{
+        opacity: 75%;
+    }
+    100%{
+        opacity:100%;
+    }
+}

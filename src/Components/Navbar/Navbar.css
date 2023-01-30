@@ -1,0 +1,34 @@
+.navbar{
+    width: 100vw;
+    height: 90px;
+    background-color: rgb(20, 29, 43,50%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+}
+.search-container{
+    position: relative;
+    background-color: aquamarine;
+}
+input{
+    height: 100%;
+    width: 30vw;
+    padding: 10px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    color:black;
+}
+button{
+    height: 100%;
+    padding: 10px 40px;
+    background-color: aquamarine;
+    border: none;
+    outline: none;
+    font-size: 15px;
+    color: rgb(3, 63, 43);
+}
+button:active{
+    background-color: rgb(57, 219, 165);
+}
