@@ -14,7 +14,6 @@ function Display(props) {
   const hours = new Date().getHours()
   
   useEffect(()=>{
-    console.log(hours)
     if(hours>6 && hours<20){
       setDaypic(weatherBackground.day)
     }
@@ -22,7 +21,6 @@ function Display(props) {
       setDaypic(weatherBackground.night)
     }
   },[hours])
-  console.log(daypic);
   return (
     <div 
       className='display-container'
