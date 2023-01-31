@@ -29,7 +29,7 @@ function Card(props) {
         </div>
         <div style={{padding:"20px"}}>
           <h2>Humidity</h2>
-          <h1><CountUp end={props.humidity}/> km/hr</h1>
+          <h1><CountUp end={props.humidity}/>%</h1>
         </div>
       </div>
     </>
