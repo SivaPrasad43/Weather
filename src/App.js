@@ -24,7 +24,6 @@ function App() {
         fetch(url)
           .then(response =>{
             if(response.status >= 400){
-              console.log("oombi")
               setStatus(false)
               return null
             }else{
